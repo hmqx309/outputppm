@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/myProject/cpp/outputppm/ppmOutput.cpp" "CMakeFiles/outputppm.dir/ppmOutput.cpp.obj" "gcc" "CMakeFiles/outputppm.dir/ppmOutput.cpp.obj.d"
+  "D:/myProject/cpp/outputppm/ppmOutput.cpp" "CMakeFiles/ppmOutput.dir/ppmOutput.cpp.obj" "gcc" "CMakeFiles/ppmOutput.dir/ppmOutput.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

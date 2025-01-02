@@ -62,11 +62,11 @@ CMAKE_BINARY_DIR = D:\myProject\cpp\outputppm\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/outputppm.dir/all
+all: CMakeFiles/ppmOutput.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/outputppm.dir/codegen
+codegen: CMakeFiles/ppmOutput.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,40 +74,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/outputppm.dir/clean
+clean: CMakeFiles/ppmOutput.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/outputppm.dir
+# Target rules for target CMakeFiles/ppmOutput.dir
 
 # All Build rule for target.
-CMakeFiles/outputppm.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\outputppm.dir\build.make CMakeFiles/outputppm.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\outputppm.dir\build.make CMakeFiles/outputppm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\myProject\cpp\outputppm\build\CMakeFiles --progress-num=1,2 "Built target outputppm"
-.PHONY : CMakeFiles/outputppm.dir/all
+CMakeFiles/ppmOutput.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppmOutput.dir\build.make CMakeFiles/ppmOutput.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppmOutput.dir\build.make CMakeFiles/ppmOutput.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\myProject\cpp\outputppm\build\CMakeFiles --progress-num=1,2 "Built target ppmOutput"
+.PHONY : CMakeFiles/ppmOutput.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/outputppm.dir/rule: cmake_check_build_system
+CMakeFiles/ppmOutput.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\myProject\cpp\outputppm\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/outputppm.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ppmOutput.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\myProject\cpp\outputppm\build\CMakeFiles 0
-.PHONY : CMakeFiles/outputppm.dir/rule
+.PHONY : CMakeFiles/ppmOutput.dir/rule
 
 # Convenience name for target.
-outputppm: CMakeFiles/outputppm.dir/rule
-.PHONY : outputppm
+ppmOutput: CMakeFiles/ppmOutput.dir/rule
+.PHONY : ppmOutput
 
 # codegen rule for target.
-CMakeFiles/outputppm.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\outputppm.dir\build.make CMakeFiles/outputppm.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\myProject\cpp\outputppm\build\CMakeFiles --progress-num=1,2 "Finished codegen for target outputppm"
-.PHONY : CMakeFiles/outputppm.dir/codegen
+CMakeFiles/ppmOutput.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppmOutput.dir\build.make CMakeFiles/ppmOutput.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\myProject\cpp\outputppm\build\CMakeFiles --progress-num=1,2 "Finished codegen for target ppmOutput"
+.PHONY : CMakeFiles/ppmOutput.dir/codegen
 
 # clean rule for target.
-CMakeFiles/outputppm.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\outputppm.dir\build.make CMakeFiles/outputppm.dir/clean
-.PHONY : CMakeFiles/outputppm.dir/clean
+CMakeFiles/ppmOutput.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppmOutput.dir\build.make CMakeFiles/ppmOutput.dir/clean
+.PHONY : CMakeFiles/ppmOutput.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

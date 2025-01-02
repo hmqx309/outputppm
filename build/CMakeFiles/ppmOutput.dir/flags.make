@@ -4,7 +4,7 @@
 # compile CXX with D:/program/msys64/ucrt64/bin/c++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/ppmOutput.dir/includes_CXX.rsp
 
-CXX_FLAGS = -std=gnu++11
+CXX_FLAGS = -std=gnu++17
 

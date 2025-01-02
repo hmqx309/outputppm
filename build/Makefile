@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named outputppm
+# Target rules for targets named ppmOutput
 
 # Build rule for target.
-outputppm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 outputppm
-.PHONY : outputppm
+ppmOutput: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ppmOutput
+.PHONY : ppmOutput
 
 # fast build rule for target.
-outputppm/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\outputppm.dir\build.make CMakeFiles/outputppm.dir/build
-.PHONY : outputppm/fast
+ppmOutput/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppmOutput.dir\build.make CMakeFiles/ppmOutput.dir/build
+.PHONY : ppmOutput/fast
 
 ppmOutput.obj: ppmOutput.cpp.obj
 .PHONY : ppmOutput.obj
 
 # target to build an object file
 ppmOutput.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\outputppm.dir\build.make CMakeFiles/outputppm.dir/ppmOutput.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppmOutput.dir\build.make CMakeFiles/ppmOutput.dir/ppmOutput.cpp.obj
 .PHONY : ppmOutput.cpp.obj
 
 ppmOutput.i: ppmOutput.cpp.i
@@ -141,7 +141,7 @@ ppmOutput.i: ppmOutput.cpp.i
 
 # target to preprocess a source file
 ppmOutput.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\outputppm.dir\build.make CMakeFiles/outputppm.dir/ppmOutput.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppmOutput.dir\build.make CMakeFiles/ppmOutput.dir/ppmOutput.cpp.i
 .PHONY : ppmOutput.cpp.i
 
 ppmOutput.s: ppmOutput.cpp.s
@@ -149,7 +149,7 @@ ppmOutput.s: ppmOutput.cpp.s
 
 # target to generate assembly for a file
 ppmOutput.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\outputppm.dir\build.make CMakeFiles/outputppm.dir/ppmOutput.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppmOutput.dir\build.make CMakeFiles/ppmOutput.dir/ppmOutput.cpp.s
 .PHONY : ppmOutput.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... outputppm
+	@echo ... ppmOutput
 	@echo ... ppmOutput.obj
 	@echo ... ppmOutput.i
 	@echo ... ppmOutput.s
